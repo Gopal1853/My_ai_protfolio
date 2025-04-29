@@ -26,7 +26,7 @@ export const project_data = [
     },
     {
         title: "Pawtrail (Hardware)",
-        image: "Pawtrail.jpeg",
+        image: "PawTrail.jpeg",
         description:
             "Built an automated pet tracking system using Arduino Uno, GPS, and GSM modules for real-time location monitoring with 95% accuracy. Implemented geofencing alerts via SMS and calls, improving response time by 40% when pets breach safe zones.",
         badges: ["Arduino Uno", "GPS Neo", "GSM modules"],
