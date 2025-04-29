@@ -26,15 +26,16 @@ const Projects = () => {
             {/* Image Section */}
             <section className="p-1 lg:w-1/2 max-w-fit flex items-center">
               <Image
-                className=" rounded-lg shadow-lg"
+                className="rounded-lg shadow-lg"
                 src={`/projects/${e.image}`}
                 alt={`${e.title} by R Gopalram`}
                 priority={false}
-                height={300}
                 width={600}
+                height={300}
                 style={{
-                  width: "600px",
-                  height: "auto",
+                  width: '100%',
+                  height: 'auto',
+                  objectFit: 'cover'
                 }}
               />
             </section>
