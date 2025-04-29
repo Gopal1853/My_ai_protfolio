@@ -3,10 +3,13 @@ import { RiJavascriptFill, RiLinkedinFill } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io5";
-import { SiMysql, SiMongodb, SiPython, SiCplusplus, SiFlask, SiPytorch, SiTensorflow, SiPandas, SiNumpy, SiScipy, SiScikitlearn, SiAmazonaws, SiApachespark, SiUbuntu, SiLinux, SiMicrosoftexcel, SiPostgresql } from "react-icons/si";
+import { SiMysql, SiMongodb, SiPython, SiCplusplus, SiFlask, SiPytorch, SiTensorflow, SiPandas, SiNumpy, SiScipy, SiScikitlearn, SiAmazonaws, SiApachespark, SiUbuntu, SiLinux, SiMicrosoftexcel, SiPostgresql, SiArduino } from "react-icons/si";
 import { PiGithubLogoFill } from "react-icons/pi";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
+import { GiProcessor, GiChip } from "react-icons/gi";
+import { MdDeveloperBoard, MdCode } from "react-icons/md";
+import { BsMotherboard } from "react-icons/bs";
 import "../app/globals.css";
 import Link from "next/link";
 
@@ -123,6 +126,28 @@ const About = () => {
               </section>
               <section className="flex justify-center items-center flex-col">
                 <SiAmazonaws size={45} className="text-yellow-500" /> AWS
+              </section>
+            </section>
+          </section>
+
+          {/* ECE Core Skills */}
+          <section className="mb-6">
+            <h3 className="text-xl font-semibold mb-4 text-gray-900">ECE Core Skills</h3>
+            <section className="flex gap-6 justify-center flex-wrap text-lg text-gray-800">
+              <section className="flex justify-center items-center flex-col">
+                <GiProcessor size={45} className="text-blue-600" /> MATLAB
+              </section>
+              <section className="flex justify-center items-center flex-col">
+                <MdDeveloperBoard size={45} className="text-purple-600" /> Xilinx
+              </section>
+              <section className="flex justify-center items-center flex-col">
+                <SiArduino size={45} className="text-green-600" /> Arduino
+              </section>
+              <section className="flex justify-center items-center flex-col">
+                <BsMotherboard size={45} className="text-orange-600" /> IoT
+              </section>
+              <section className="flex justify-center items-center flex-col">
+                <MdCode size={45} className="text-indigo-600" /> Keil
               </section>
             </section>
           </section>
