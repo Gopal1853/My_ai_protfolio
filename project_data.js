@@ -10,7 +10,7 @@ export const project_data = [
     },
     {
         title: " C-Driven Multilingual Offline Translator Using NLP ",
-        image: "translator.png",
+        image: "Translator.png",
         description:
             "Developed ETL pipelines using PySpark to process large multilingual datasets, significantly reducing preprocessing time while ensuring high data quality for model training. Implemented SQL queries and Python scripts for data cleaning, validation, and model evaluation, improving model accuracy by 80%. Contributed to a DRDO project, optimizing data processing for embedded systems and enhancing translation quality in resource-constrained environments.",
         badges: [" Python" ,"Flask", "CURL", "PySpark", "SQL", "C-Language",  "NLP Model"],
@@ -25,7 +25,7 @@ export const project_data = [
         badges: ["Esp32", "Sp02 Sensor", "Heart Rate Sensor", "Arduino Uno", "Buck Transformer", "Motion sensor"],
     },
     {
-        title: "PawTrail (Hardware)",
+        title: "Pawtrail (Hardware)",
         image: "Pawtrail.jpeg",
         description:
             "Built an automated pet tracking system using Arduino Uno, GPS, and GSM modules for real-time location monitoring with 95% accuracy. Implemented geofencing alerts via SMS and calls, improving response time by 40% when pets breach safe zones.",
